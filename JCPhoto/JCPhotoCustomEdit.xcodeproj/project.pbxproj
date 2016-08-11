@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21EA13FA1D5C7A0D00477CDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EA13F91D5C7A0D00477CDC /* main.m */; };
+		21EA13FD1D5C7A0D00477CDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EA13FC1D5C7A0D00477CDC /* AppDelegate.m */; };
+		21EA14001D5C7A0D00477CDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EA13FF1D5C7A0D00477CDC /* ViewController.m */; };
+		21EA14031D5C7A0D00477CDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21EA14011D5C7A0D00477CDC /* Main.storyboard */; };
+		21EA14051D5C7A0D00477CDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21EA14041D5C7A0D00477CDC /* Assets.xcassets */; };
+		21EA14081D5C7A0D00477CDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21EA14061D5C7A0D00477CDC /* LaunchScreen.storyboard */; };
+		21EA14131D5C7A0D00477CDC /* JCPhotoCustomEditTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EA14121D5C7A0D00477CDC /* JCPhotoCustomEditTests.m */; };
+		21EA141E1D5C7A0D00477CDC /* JCPhotoCustomEditUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EA141D1D5C7A0D00477CDC /* JCPhotoCustomEditUITests.m */; };
+		21EA14351D5C7ADE00477CDC /* ALActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EA142D1D5C7ADE00477CDC /* ALActionSheetView.m */; };
+		21EA14361D5C7ADE00477CDC /* JCPhotoEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EA142F1D5C7ADE00477CDC /* JCPhotoEditViewController.m */; };
+		21EA14371D5C7ADE00477CDC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 21EA14301D5C7ADE00477CDC /* README.md */; };
+		21EA14381D5C7ADE00477CDC /* UIImage+JCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EA14321D5C7ADE00477CDC /* UIImage+JCHelper.m */; };
+		21EA14391D5C7ADE00477CDC /* UIViewController+JCPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EA14341D5C7ADE00477CDC /* UIViewController+JCPhoto.m */; };
+		21EA143D1D5C7EA100477CDC /* SyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EA143B1D5C7EA100477CDC /* SyViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21EA140F1D5C7A0D00477CDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21EA13ED1D5C7A0D00477CDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21EA13F41D5C7A0D00477CDC;
+			remoteInfo = JCPhotoCustomEdit;
+		};
+		21EA141A1D5C7A0D00477CDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21EA13ED1D5C7A0D00477CDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21EA13F41D5C7A0D00477CDC;
+			remoteInfo = JCPhotoCustomEdit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21EA13F51D5C7A0D00477CDC /* JCPhotoCustomEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCPhotoCustomEdit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21EA13F91D5C7A0D00477CDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21EA13FB1D5C7A0D00477CDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21EA13FC1D5C7A0D00477CDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21EA13FE1D5C7A0D00477CDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		21EA13FF1D5C7A0D00477CDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		21EA14021D5C7A0D00477CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21EA14041D5C7A0D00477CDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21EA14071D5C7A0D00477CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21EA14091D5C7A0D00477CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21EA140E1D5C7A0D00477CDC /* JCPhotoCustomEditTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCPhotoCustomEditTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21EA14121D5C7A0D00477CDC /* JCPhotoCustomEditTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCPhotoCustomEditTests.m; sourceTree = "<group>"; };
+		21EA14141D5C7A0D00477CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21EA14191D5C7A0D00477CDC /* JCPhotoCustomEditUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCPhotoCustomEditUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21EA141D1D5C7A0D00477CDC /* JCPhotoCustomEditUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCPhotoCustomEditUITests.m; sourceTree = "<group>"; };
+		21EA141F1D5C7A0D00477CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21EA142C1D5C7ADE00477CDC /* ALActionSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALActionSheetView.h; sourceTree = "<group>"; };
+		21EA142D1D5C7ADE00477CDC /* ALActionSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALActionSheetView.m; sourceTree = "<group>"; };
+		21EA142E1D5C7ADE00477CDC /* JCPhotoEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCPhotoEditViewController.h; sourceTree = "<group>"; };
+		21EA142F1D5C7ADE00477CDC /* JCPhotoEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCPhotoEditViewController.m; sourceTree = "<group>"; };
+		21EA14301D5C7ADE00477CDC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		21EA14311D5C7ADE00477CDC /* UIImage+JCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JCHelper.h"; sourceTree = "<group>"; };
+		21EA14321D5C7ADE00477CDC /* UIImage+JCHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JCHelper.m"; sourceTree = "<group>"; };
+		21EA14331D5C7ADE00477CDC /* UIViewController+JCPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JCPhoto.h"; sourceTree = "<group>"; };
+		21EA14341D5C7ADE00477CDC /* UIViewController+JCPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JCPhoto.m"; sourceTree = "<group>"; };
+		21EA143A1D5C7EA100477CDC /* SyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyViewController.h; sourceTree = "<group>"; };
+		21EA143B1D5C7EA100477CDC /* SyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21EA13F21D5C7A0D00477CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21EA140B1D5C7A0D00477CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21EA14161D5C7A0D00477CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21EA13EC1D5C7A0D00477CDC = {
+			isa = PBXGroup;
+			children = (
+				21EA13F71D5C7A0D00477CDC /* JCPhotoCustomEdit */,
+				21EA14111D5C7A0D00477CDC /* JCPhotoCustomEditTests */,
+				21EA141C1D5C7A0D00477CDC /* JCPhotoCustomEditUITests */,
+				21EA13F61D5C7A0D00477CDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21EA13F61D5C7A0D00477CDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21EA13F51D5C7A0D00477CDC /* JCPhotoCustomEdit.app */,
+				21EA140E1D5C7A0D00477CDC /* JCPhotoCustomEditTests.xctest */,
+				21EA14191D5C7A0D00477CDC /* JCPhotoCustomEditUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21EA13F71D5C7A0D00477CDC /* JCPhotoCustomEdit */ = {
+			isa = PBXGroup;
+			children = (
+				21EA142B1D5C7ADE00477CDC /* photoEidt */,
+				21EA13FB1D5C7A0D00477CDC /* AppDelegate.h */,
+				21EA13FC1D5C7A0D00477CDC /* AppDelegate.m */,
+				21EA13FE1D5C7A0D00477CDC /* ViewController.h */,
+				21EA13FF1D5C7A0D00477CDC /* ViewController.m */,
+				21EA14011D5C7A0D00477CDC /* Main.storyboard */,
+				21EA143A1D5C7EA100477CDC /* SyViewController.h */,
+				21EA143B1D5C7EA100477CDC /* SyViewController.m */,
+				21EA14041D5C7A0D00477CDC /* Assets.xcassets */,
+				21EA14061D5C7A0D00477CDC /* LaunchScreen.storyboard */,
+				21EA14091D5C7A0D00477CDC /* Info.plist */,
+				21EA13F81D5C7A0D00477CDC /* Supporting Files */,
+			);
+			path = JCPhotoCustomEdit;
+			sourceTree = "<group>";
+		};
+		21EA13F81D5C7A0D00477CDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21EA13F91D5C7A0D00477CDC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21EA14111D5C7A0D00477CDC /* JCPhotoCustomEditTests */ = {
+			isa = PBXGroup;
+			children = (
+				21EA14121D5C7A0D00477CDC /* JCPhotoCustomEditTests.m */,
+				21EA14141D5C7A0D00477CDC /* Info.plist */,
+			);
+			path = JCPhotoCustomEditTests;
+			sourceTree = "<group>";
+		};
+		21EA141C1D5C7A0D00477CDC /* JCPhotoCustomEditUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21EA141D1D5C7A0D00477CDC /* JCPhotoCustomEditUITests.m */,
+				21EA141F1D5C7A0D00477CDC /* Info.plist */,
+			);
+			path = JCPhotoCustomEditUITests;
+			sourceTree = "<group>";
+		};
+		21EA142B1D5C7ADE00477CDC /* photoEidt */ = {
+			isa = PBXGroup;
+			children = (
+				21EA142C1D5C7ADE00477CDC /* ALActionSheetView.h */,
+				21EA142D1D5C7ADE00477CDC /* ALActionSheetView.m */,
+				21EA142E1D5C7ADE00477CDC /* JCPhotoEditViewController.h */,
+				21EA142F1D5C7ADE00477CDC /* JCPhotoEditViewController.m */,
+				21EA14301D5C7ADE00477CDC /* README.md */,
+				21EA14311D5C7ADE00477CDC /* UIImage+JCHelper.h */,
+				21EA14321D5C7ADE00477CDC /* UIImage+JCHelper.m */,
+				21EA14331D5C7ADE00477CDC /* UIViewController+JCPhoto.h */,
+				21EA14341D5C7ADE00477CDC /* UIViewController+JCPhoto.m */,
+			);
+			path = photoEidt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21EA13F41D5C7A0D00477CDC /* JCPhotoCustomEdit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21EA14221D5C7A0D00477CDC /* Build configuration list for PBXNativeTarget "JCPhotoCustomEdit" */;
+			buildPhases = (
+				21EA13F11D5C7A0D00477CDC /* Sources */,
+				21EA13F21D5C7A0D00477CDC /* Frameworks */,
+				21EA13F31D5C7A0D00477CDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JCPhotoCustomEdit;
+			productName = JCPhotoCustomEdit;
+			productReference = 21EA13F51D5C7A0D00477CDC /* JCPhotoCustomEdit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21EA140D1D5C7A0D00477CDC /* JCPhotoCustomEditTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21EA14251D5C7A0D00477CDC /* Build configuration list for PBXNativeTarget "JCPhotoCustomEditTests" */;
+			buildPhases = (
+				21EA140A1D5C7A0D00477CDC /* Sources */,
+				21EA140B1D5C7A0D00477CDC /* Frameworks */,
+				21EA140C1D5C7A0D00477CDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21EA14101D5C7A0D00477CDC /* PBXTargetDependency */,
+			);
+			name = JCPhotoCustomEditTests;
+			productName = JCPhotoCustomEditTests;
+			productReference = 21EA140E1D5C7A0D00477CDC /* JCPhotoCustomEditTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21EA14181D5C7A0D00477CDC /* JCPhotoCustomEditUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21EA14281D5C7A0D00477CDC /* Build configuration list for PBXNativeTarget "JCPhotoCustomEditUITests" */;
+			buildPhases = (
+				21EA14151D5C7A0D00477CDC /* Sources */,
+				21EA14161D5C7A0D00477CDC /* Frameworks */,
+				21EA14171D5C7A0D00477CDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21EA141B1D5C7A0D00477CDC /* PBXTargetDependency */,
+			);
+			name = JCPhotoCustomEditUITests;
+			productName = JCPhotoCustomEditUITests;
+			productReference = 21EA14191D5C7A0D00477CDC /* JCPhotoCustomEditUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21EA13ED1D5C7A0D00477CDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wang;
+				TargetAttributes = {
+					21EA13F41D5C7A0D00477CDC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					21EA140D1D5C7A0D00477CDC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 21EA13F41D5C7A0D00477CDC;
+					};
+					21EA14181D5C7A0D00477CDC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 21EA13F41D5C7A0D00477CDC;
+					};
+				};
+			};
+			buildConfigurationList = 21EA13F01D5C7A0D00477CDC /* Build configuration list for PBXProject "JCPhotoCustomEdit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21EA13EC1D5C7A0D00477CDC;
+			productRefGroup = 21EA13F61D5C7A0D00477CDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21EA13F41D5C7A0D00477CDC /* JCPhotoCustomEdit */,
+				21EA140D1D5C7A0D00477CDC /* JCPhotoCustomEditTests */,
+				21EA14181D5C7A0D00477CDC /* JCPhotoCustomEditUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21EA13F31D5C7A0D00477CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21EA14081D5C7A0D00477CDC /* LaunchScreen.storyboard in Resources */,
+				21EA14051D5C7A0D00477CDC /* Assets.xcassets in Resources */,
+				21EA14031D5C7A0D00477CDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21EA140C1D5C7A0D00477CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21EA14171D5C7A0D00477CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21EA13F11D5C7A0D00477CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21EA14371D5C7ADE00477CDC /* README.md in Sources */,
+				21EA14001D5C7A0D00477CDC /* ViewController.m in Sources */,
+				21EA14361D5C7ADE00477CDC /* JCPhotoEditViewController.m in Sources */,
+				21EA14351D5C7ADE00477CDC /* ALActionSheetView.m in Sources */,
+				21EA14391D5C7ADE00477CDC /* UIViewController+JCPhoto.m in Sources */,
+				21EA14381D5C7ADE00477CDC /* UIImage+JCHelper.m in Sources */,
+				21EA13FD1D5C7A0D00477CDC /* AppDelegate.m in Sources */,
+				21EA13FA1D5C7A0D00477CDC /* main.m in Sources */,
+				21EA143D1D5C7EA100477CDC /* SyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21EA140A1D5C7A0D00477CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21EA14131D5C7A0D00477CDC /* JCPhotoCustomEditTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21EA14151D5C7A0D00477CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21EA141E1D5C7A0D00477CDC /* JCPhotoCustomEditUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21EA14101D5C7A0D00477CDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21EA13F41D5C7A0D00477CDC /* JCPhotoCustomEdit */;
+			targetProxy = 21EA140F1D5C7A0D00477CDC /* PBXContainerItemProxy */;
+		};
+		21EA141B1D5C7A0D00477CDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21EA13F41D5C7A0D00477CDC /* JCPhotoCustomEdit */;
+			targetProxy = 21EA141A1D5C7A0D00477CDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21EA14011D5C7A0D00477CDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21EA14021D5C7A0D00477CDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21EA14061D5C7A0D00477CDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21EA14071D5C7A0D00477CDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21EA14201D5C7A0D00477CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21EA14211D5C7A0D00477CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21EA14231D5C7A0D00477CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JCPhotoCustomEdit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LDF.JCPhotoCustomEdit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21EA14241D5C7A0D00477CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JCPhotoCustomEdit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LDF.JCPhotoCustomEdit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		21EA14261D5C7A0D00477CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JCPhotoCustomEditTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LDF.JCPhotoCustomEditTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JCPhotoCustomEdit.app/JCPhotoCustomEdit";
+			};
+			name = Debug;
+		};
+		21EA14271D5C7A0D00477CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JCPhotoCustomEditTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LDF.JCPhotoCustomEditTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JCPhotoCustomEdit.app/JCPhotoCustomEdit";
+			};
+			name = Release;
+		};
+		21EA14291D5C7A0D00477CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JCPhotoCustomEditUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LDF.JCPhotoCustomEditUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JCPhotoCustomEdit;
+			};
+			name = Debug;
+		};
+		21EA142A1D5C7A0D00477CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JCPhotoCustomEditUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LDF.JCPhotoCustomEditUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JCPhotoCustomEdit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21EA13F01D5C7A0D00477CDC /* Build configuration list for PBXProject "JCPhotoCustomEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21EA14201D5C7A0D00477CDC /* Debug */,
+				21EA14211D5C7A0D00477CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21EA14221D5C7A0D00477CDC /* Build configuration list for PBXNativeTarget "JCPhotoCustomEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21EA14231D5C7A0D00477CDC /* Debug */,
+				21EA14241D5C7A0D00477CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21EA14251D5C7A0D00477CDC /* Build configuration list for PBXNativeTarget "JCPhotoCustomEditTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21EA14261D5C7A0D00477CDC /* Debug */,
+				21EA14271D5C7A0D00477CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21EA14281D5C7A0D00477CDC /* Build configuration list for PBXNativeTarget "JCPhotoCustomEditUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21EA14291D5C7A0D00477CDC /* Debug */,
+				21EA142A1D5C7A0D00477CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21EA13ED1D5C7A0D00477CDC /* Project object */;
+}
